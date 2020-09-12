@@ -1,0 +1,8 @@
+C:\Users\Salman-pc\Documents\SharpDevelop Projects\Temperature converter\Temperature converter\bin\Debug\Temperature converter.exe.config
+C:\Users\Salman-pc\Documents\SharpDevelop Projects\Temperature converter\Temperature converter\bin\Debug\Temperature converter.exe
+C:\Users\Salman-pc\Documents\SharpDevelop Projects\Temperature converter\Temperature converter\bin\Debug\Temperature converter.pdb
+C:\Users\Salman-pc\Documents\SharpDevelop Projects\Temperature converter\Temperature converter\obj\Debug\Temperature converter.csprojResolveAssemblyReference.cache
+C:\Users\Salman-pc\Documents\SharpDevelop Projects\Temperature converter\Temperature converter\obj\Debug\Temperature_converter.MainForm.resources
+C:\Users\Salman-pc\Documents\SharpDevelop Projects\Temperature converter\Temperature converter\obj\Debug\Temperature converter.csproj.GenerateResource.Cache
+C:\Users\Salman-pc\Documents\SharpDevelop Projects\Temperature converter\Temperature converter\obj\Debug\Temperature converter.exe
+C:\Users\Salman-pc\Documents\SharpDevelop Projects\Temperature converter\Temperature converter\obj\Debug\Temperature converter.pdb
