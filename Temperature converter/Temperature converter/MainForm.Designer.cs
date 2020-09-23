@@ -97,7 +97,8 @@ namespace Temperature_converter
 			this.comboBox1.Items.AddRange(new object[] {
 			"C",
 			"F",
-			"K"});
+			"K",
+			"R"});
 			this.comboBox1.Location = new System.Drawing.Point(184, 28);
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(52, 21);
@@ -112,7 +113,8 @@ namespace Temperature_converter
 			this.comboBox2.Items.AddRange(new object[] {
 			"C",
 			"F",
-			"K"});
+			"K",
+			"R"});
 			this.comboBox2.Location = new System.Drawing.Point(184, 68);
 			this.comboBox2.Name = "comboBox2";
 			this.comboBox2.Size = new System.Drawing.Size(52, 21);
@@ -251,7 +253,6 @@ namespace Temperature_converter
 			this.Controls.Add(this.textBox1);
 			this.Name = "MainForm";
 			this.Text = "Temperature converter";
-			this.Click += new System.EventHandler(this.ButtonClick);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

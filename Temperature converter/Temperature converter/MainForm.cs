@@ -94,8 +94,45 @@ namespace Temperature_converter
 				result = temperature - 273.15;
 				label1.Text = result.ToString();
 			}
+			
+			//celius to reamur
+			else if(comboBox1.SelectedIndex == 0 && comboBox2.SelectedIndex == 3)
+			{
+				result =  temperature * 0.8;
+				label1.Text =  result.ToString();
+			}
+			//fahrenheit to reamur
+			else if(comboBox1.SelectedIndex ==  1 && comboBox2.SelectedIndex == 3)
+			{
+				result = (temperature - 32)/2.25;
+				label1.Text = result.ToString();
+			}
+			//kelvin to reamur
+			else if(comboBox1.SelectedIndex == 2 && comboBox2.SelectedIndex == 3)
+			{
+				result = (temperature - 273.15) * 0.8;
+				label1.Text = result.ToString();
+			}
+			//reamur to celcius
+			else if(comboBox1.SelectedIndex == 3 && comboBox2.SelectedIndex == 0)
+			{
+				result = temperature * 1.25;
+				label1.Text = result.ToString();
+			}
+			//reamur to fahrenheit
+			else if(comboBox1.SelectedIndex == 3 && comboBox2.SelectedIndex == 1)
+			{
+				result = temperature * 2.25 + 32;
+				label1.Text = result.ToString();
+			}
+			//reamur to kelvin
+			else if(comboBox1.SelectedIndex == 3 && comboBox2.SelectedIndex == 2)
+			{
+				result =  temperature * 1.25 + 273.15;
+				label1.Text = result.ToString();
+			}
 			else{
-				label1.Text = "0";
+				label1.Text = textBox1.Text;
 			}
 		}
 		void Button11Click(object sender, EventArgs e)
